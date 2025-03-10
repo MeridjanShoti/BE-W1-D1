@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class Main {
+public class Esercizio1 {
     static int moltiplica(int a, int b){
         return a*b;
     };
