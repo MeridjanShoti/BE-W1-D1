@@ -10,8 +10,8 @@ public class Esercizio3 {
         if(a%2==0){return 0;}else {return 1;}
     }
     static double perimetroTriangolo (double a, double b, double c){
-        double perimetro = a + b + c;
-        return Math.sqrt(perimetro*(perimetro-a)*(perimetro-b)*(perimetro-c));
+        double semiperimetro = (a + b + c)/2;
+        return Math.sqrt(semiperimetro*(semiperimetro-a)*(semiperimetro-b)*(semiperimetro-c));
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
